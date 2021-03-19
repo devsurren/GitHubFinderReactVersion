@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+
+:root{
+	pink:#ff99ac;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+h3{
+	margin: 0rem 0rem;
+}
+/*Util Class*/
+
+input{
+	display: block;
+	width: 100%;
+	padding: 0.25rem 0rem;
+	border: 1px solid #ff99ac;
+}
+
+.lead{
+	font-size: 1rem;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+}
+/*Nav Bar*/
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-link{
+	padding: .35rem;
+	margin: .55rem;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+}
+.about-link:hover{
+	color: grey;
+}
+
+.navbar-lead{
+	color: white;
+	padding: .55rem;
+	margin: .55rem;
+}
+
+.container{
+	max-width: 1100px;
+	margin: auto;
+	padding-top: 1.5rem;
+
+}
+
+.btn {
+	color:white;
+	padding: 0.35rem;
+	border:none;
+	border-radius: 5px;
+	margin: 0.55rem 0rem;
+	font-size: 1rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+.btn-pink {
+	background-color: #ff99ac
+}
+
+.btn-dark {
+	background: #333;
+}
+
+.btn-block{
+	display: block;
+	width: 100%;
+}
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+nav{
+	background: #ff99ac;
+	margin: -0.5rem;
+}
+
+
+.user-container{
+	height: 100px;
+	width: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border:0.5px solid #ff99ac;
+	border-radius: 5px;
+	padding: 0.5rem;
+}
+
+.avatar{
+	width:50px;
+	height: 75px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.users-showcase{
+	display: grid;
+	grid-template-columns: repeat(5,200px);
+	grid-gap: 1rem;
+	align-items: center;
+	justify-content: center;
+}
+
+/*Searcg Form*/
+
+.search-form{
+	display: block;
+	margin: 1rem;
+	border: 1px solid #ff99ac;
+	padding: 1rem;
+	border-radius:5px;
+}
+
+/* About Us  */
+
+.about-container {
+	width: 45%;
+	height: 40%;
+	padding:  1rem;
+	margin: 3rem auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ff99ac;
+	border-radius:5px;
+	
+}
+
+.about-container p {
+	font-size: 1.5rem;
+	margin: 1rem 0rem;
+}
+
+.about-container h3 {
+	font-size: 2rem;
+	text-align: center;
+	margin: 0rem 2rem;
+}
+

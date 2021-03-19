@@ -1,0 +1,2 @@
+github_client_secret="21ecfe3ca0913c8b468c1cd5cf85efa66c87e50b"
+github_client_id="924e1dea7b3d24931d7f"
