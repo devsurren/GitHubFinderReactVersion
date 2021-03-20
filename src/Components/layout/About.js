@@ -6,7 +6,7 @@ const About=()=>{
 		<Fragment>
 
 		<div className="about-container">
-			<h3>GitHud Finder</h3>
+			<h3>GitHub Finder</h3>
 			<p>V.0.0.1</p>
 		</div>
 		</Fragment>

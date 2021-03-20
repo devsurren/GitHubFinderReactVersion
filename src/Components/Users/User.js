@@ -1,12 +1,19 @@
-import react from 'react';
+import react,{Component} from 'react';
 
 
-const User=(props)=>{
-	return(
+class User extends Component {
 
-		<h2>User</h2>
+	async ComponentDidMount(){
+		this.props.getSingleUser(this.props.match.params.login);
+	}
 
-		)
+
+	render(){
+		return(
+			<h1>{this.props.user.name}</h1>
+			);
+	}
 }
+
 
 export default User;
