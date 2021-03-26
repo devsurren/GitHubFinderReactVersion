@@ -3,7 +3,7 @@ import React,{Component,Fragment} from 'react';
 class Search extends Component {
 
  state={
- 	searchtext:" ",
+ 	searchtext:null,
  }
 
   onChange=(event)=>{
@@ -12,8 +12,13 @@ class Search extends Component {
 
  onSubmit=(event)=>{
  	console.log("submitbutton triggered");
- 	event.preventDefault();
- 	this.props.searchtext(this.state.searchtext);
+	 event.preventDefault();
+	 if(this.state.searchtext){
+		this.props.searchtext(this.state.searchtext);
+	 }else{
+		 alert("Please Enter Something");
+		 console.log("alert from Search.js")
+	 }
  }
 
  test=(e)=>{

@@ -13,7 +13,17 @@ class Navbar extends Component{
             <Fragment>
             <nav>
             <h3 className="navbar-lead">{this.props.title}</h3>
-            <Link to="/about" className="about-link">About</Link>
+            <ul className="nav-links">
+            <li> 
+                <Link to="/" className="about-link">Home</Link>
+                </li>
+                <li>
+                <Link to="/about" className="about-link">About</Link>
+                </li>
+                <li> 
+                <Link to="/contactus" className="about-link">ContactUs</Link>
+                </li>
+            </ul>
             </nav>
             </Fragment>
         )

@@ -8,10 +8,10 @@
 	box-sizing: border-box;
 }
 
-
 h3{
 	margin: 0rem 0rem;
 }
+
 /*Util Class*/
 
 input{
@@ -21,41 +21,19 @@ input{
 	border: 1px solid #ff99ac;
 }
 
+.container{
+	max-width: 1100px;
+	margin: auto;
+	padding-top: 1.5rem;
+
+}
+
 
 .lead{
 	font-size: 1rem;
 	font-weight: bold;
 	color: #333;
 	text-align: center;
-}
-/*Nav Bar*/
-nav{
-	display: flex;
-	justify-content: space-between;
-}
-
-.about-link{
-	padding: .35rem;
-	margin: .55rem;
-	border-radius: 5px;
-	color: white;
-	text-decoration: none;
-}
-.about-link:hover{
-	color: grey;
-}
-
-.navbar-lead{
-	color: white;
-	padding: .55rem;
-	margin: .55rem;
-}
-
-.container{
-	max-width: 1100px;
-	margin: auto;
-	padding-top: 1.5rem;
-
 }
 
 .btn {
@@ -83,17 +61,45 @@ nav{
 	width: 100%;
 }
 
+/*Nav Bar*/
+nav{
+	display: flex;
+	justify-content: space-between;
+	background: #ff99ac;
+	margin: -0.5rem;
+}
+
+.nav-links {
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	text-decoration: none;
+	list-style: none;
+}
+
+.navbar-lead{
+	color: white;
+	margin: 1rem 1rem;
+	font-size: 1.2rem;
+}
+
+.about-link{
+
+	margin: 1rem 1rem;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+.about-link:hover{
+	color: grey;
+}
 
 body{
 	font-family: 'Roboto', sans-serif;
 
 }
-
-nav{
-	background: #ff99ac;
-	margin: -0.5rem;
-}
-
 
 .user-container{
 	height: 130px;
